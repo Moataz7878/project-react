@@ -1,0 +1,135 @@
+.Protfolio{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.Protfolio h2{
+    font-size: 38px;
+    font-weight: 900;
+}
+.Protfolio .lain1{
+    width: 164px;
+    height: 5px;
+    background-color: #2c3e50;
+    position: absolute;
+    top: 45%;
+    border: 1ps solid white;
+    border-radius: 2px;
+    
+}
+
+.Protfolio .lain2{
+    width: 164px;
+    height: 5px;
+    background-color: #2c3e50;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    border: 1ps solid white;
+    border-radius: 2px;
+    
+}
+.Protfolio img{
+    border-radius: 8px;
+}
+.Protfolio .hovers{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(26, 188, 156, 0.8); ;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid rgba(26, 188, 156, 0.8);;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.Protfolio .hovers i{
+    display: block;
+    font-size: 70px;
+    color: aliceblue;
+}
+.Protfolio .child:hover .hovers {
+
+    opacity: 1;
+}
+.Protfolio .child{
+    position: relative;
+}
+.childImg{
+    width: 55%;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+ 
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 9px;
+    position: relative;
+}
+.childImg .icon{
+    position: absolute;
+    top: 14px;
+    right: 17px;
+    width: 40px;
+    height: 30px;
+    color: #1abc9c;
+}
+.childImg .icon i{
+    font-size: 45px;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+.childImg img{
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.childImg h2{
+    font-size: 38px;
+    font-weight: 900;
+}
+.childImg .lain1{
+    width: 83px;
+    height: 5px;
+    background-color: #2c3e50;
+    position: absolute;
+    top: 45%;
+    border: 1ps solid white;
+    border-radius: 2px;
+    
+}
+
+.childImg .lain2{
+    width: 83px;
+    height: 5px;
+    background-color: #2c3e50;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    border: 1ps solid white;
+    border-radius: 2px;
+    
+}
+.childImg button{
+    border: none;
+    border-radius: 3px;
+    background-color: #1abc9c ;
+}
+.parents{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(48, 48, 48,0.5);
+    display: flex;
+    align-items: center;
+}

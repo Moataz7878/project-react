@@ -1,0 +1,56 @@
+.Contact{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
+.Contact h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.Contact .lain1{
+    width: 164px;
+    height: 5px;
+    background-color: #2c3e50;
+    position: absolute;
+    top: 45%;
+    border: 1ps solid white;
+    border-radius: 2px;
+    
+}
+.Contact .lain2{
+    width: 164px;
+    height: 5px;
+    background-color: #2c3e50;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    border: 1ps solid white;
+    border-radius: 2px;
+    
+}
+.Contact input{
+    border: none;
+    border-bottom: 1px solid rgba(34, 34, 34,0.9);
+    border-radius:6px ;
+    font-size: 20px;
+}
+.Contact textarea{
+    border: none;
+    border-bottom: 1px solid rgba(34, 34, 34,0.9);
+    border-radius:6px ;
+    font-size: 20px;
+}
+.Contact button{
+    background-color: #1abc9c;
+    color: white;
+    padding: 18px 30px;
+}
+.Contact h6{
+    font-weight: 700;
+    color: #1abc9c;
+}
+.Contact h3{
+    color: red;
+    margin-top: 7px;
+}
